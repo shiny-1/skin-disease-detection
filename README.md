@@ -35,3 +35,11 @@ Training New Data:
 Train the adapted model on the new dataset specific to the task you want tosolve. This
 dataset is usually smaller than the original dataset used to train the pre-trained model
 
+
+# Efficient Net
+ Is a family of convolutional neural network architectures that are designed to 
+achieve state- of-the-art performance with significantly fewer parameters and computational 
+resources compared to traditional CNN architectures. The theory behind EfficientNet 
+revolves around improving the efficiency of neural networks by balancing model depth, 
+width, and resolution using a compound scaling method. Here's a detailed overview of the
+theory behind EfficientNet
