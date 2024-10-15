@@ -43,3 +43,10 @@ resources compared to traditional CNN architectures. The theory behind Efficient
 revolves around improving the efficiency of neural networks by balancing model depth, 
 width, and resolution using a compound scaling method. Here's a detailed overview of the
 theory behind EfficientNet
+
+
+The theory behind EfficientNet revolves around achieving state-of-the-art performance
+with efficient use of computational resources through compound scaling, efficient building 
+blocks, and depthwise separable convolutions. These architectural innovations make
+Efficient Net well-suited for various computer vision tasks, including image classification,
+object detection, and segmentation, especially in resource-constrained environments.
