@@ -9,3 +9,23 @@ This is a flask application. This skin disease detetction app is designed to rec
  ## How the files are stored
  ### flask Folder-> The frontend and the main flaask application(skin-app) is stored in this folder. the application gets executed if you run the skinapp python source file
  ### Main-code-> This foldder contains the deeplearning model and the h5 file which contains the best weights of efficient model which is giving the best accuracy in detecting 8 different types of diseases 
+
+## Transfer Learning
+ Transfer learning is a machine learning technique where a model trained on one task 
+is re- purposed or adapted for a related task. Instead of training a model from scratch, 
+transfer learning leverages the knowledge gained from solving one problem and applies it to
+a different but related problem
+Pre-trained Model:
+Start with a model that has been trained on a large dataset for a specific task, such as image
+classification using a Convolutional Neural Network (CNN) trained on ImageNet.
+Feature Extraction:
+pre-trained model's parameters are used as a feature extractor. The layers close to the input 
+are frozen, meaning their weights are not updated during training.
+Fine-Tuning:
+Optionally, you can unfreeze some of the top layers of the pre-trained model and train them
+along withthe new task-specific layers. This step allows the model to adapt to the nuances of 
+the new task.
+Training New Data:
+Train the adapted model on the new dataset specific to the task you want tosolve. This
+dataset is usually smaller than the original dataset used to train the pre-trained model
+
