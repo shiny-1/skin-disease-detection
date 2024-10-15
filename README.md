@@ -15,16 +15,22 @@ This is a flask application. This skin disease detetction app is designed to rec
 is re- purposed or adapted for a related task. Instead of training a model from scratch, 
 transfer learning leverages the knowledge gained from solving one problem and applies it to
 a different but related problem
+
 Pre-trained Model:
 Start with a model that has been trained on a large dataset for a specific task, such as image
 classification using a Convolutional Neural Network (CNN) trained on ImageNet.
+
 Feature Extraction:
 pre-trained model's parameters are used as a feature extractor. The layers close to the input 
 are frozen, meaning their weights are not updated during training.
+
+
 Fine-Tuning:
 Optionally, you can unfreeze some of the top layers of the pre-trained model and train them
 along withthe new task-specific layers. This step allows the model to adapt to the nuances of 
 the new task.
+
+
 Training New Data:
 Train the adapted model on the new dataset specific to the task you want tosolve. This
 dataset is usually smaller than the original dataset used to train the pre-trained model
