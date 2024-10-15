@@ -7,5 +7,5 @@ This is a flask application. This skin disease detetction app is designed to rec
  The deep learning model is developed by using Efficientnet
 
  ## how the file are stored
- ### flask Folder-> the frontend and the main flaask application(skin-app) is stored in this folder. the application gets executed if you run the skinapp python source file
- ### Main-code-> this foldder contains the deeplearning model and the h5 file which contains the best weights of efficient model which is giving the best accuracy in detecting 8 different types of diseases 
+ ### flask Folder-> The frontend and the main flaask application(skin-app) is stored in this folder. the application gets executed if you run the skinapp python source file
+ ### Main-code-> This foldder contains the deeplearning model and the h5 file which contains the best weights of efficient model which is giving the best accuracy in detecting 8 different types of diseases 
